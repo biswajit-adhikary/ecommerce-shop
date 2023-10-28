@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 export const CartContext = createContext();
 const CartProvider = ({ children }) => {
@@ -39,6 +40,13 @@ const CartProvider = ({ children }) => {
             setCart(newCart);
         } else {
             setCart([...cart, newItem]);
+            toast.success("Item Added", {
+                // Change colors of success/error/loading icon
+                iconTheme: {
+                    primary: "#E14A00",
+                    secondary: "#ffffff",
+                },
+            });
         }
     };
     const removeFromCart = (id) => {

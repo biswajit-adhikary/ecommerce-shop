@@ -5,6 +5,7 @@ import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 import Sidebar from "./components/Sidebar";
 import CartIcon from "./components/CartIcon";
+import { Toaster } from "react-hot-toast";
 const App = () => {
     return (
         <div className="overflow-hidden">
@@ -17,6 +18,7 @@ const App = () => {
                 <Sidebar />
             </Router>
             <CartIcon />
+            <Toaster position="top-center" reverseOrder={false} />
         </div>
     );
 };
