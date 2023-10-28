@@ -1,1 +1,1 @@
-# ecommerce-shop-starter
+# ecommerce-shop project init

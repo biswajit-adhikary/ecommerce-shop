@@ -1,0 +1,51 @@
+[
+    {
+        "id": "p1",
+        "title": "Tandoori Malai Tikka",
+        "price": "189",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p2",
+        "title": "Paneer Momos",
+        "price": "179",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p3",
+        "title": "Vegan Onion Bhajia",
+        "price": "129",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p4",
+        "title": "Chicken momos",
+        "price": "189",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p5",
+        "title": "Tandoori Tikka Murg",
+        "price": "189",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p6",
+        "title": "Vegan Samosa",
+        "price": "69",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    },
+    {
+        "id": "p7",
+        "title": "Vegan Gobi Manchurian",
+        "price": "129",
+        "image": "https://examples.restaurant/wp-content/uploads/2023/10/food-min.png",
+        "category": "starters"
+    }
+]
