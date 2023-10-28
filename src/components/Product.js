@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
 import { BsCart, BsEgg } from "react-icons/bs";
 import { IoFishOutline, IoFastFoodOutline } from "react-icons/io5";
 import { CartContext } from "../contexts/CartContext";
 
 const Product = ({ product }) => {
     const { addToCart } = useContext(CartContext);
-    const { id, title, image, category, price } = product;
+    const { id, title, image, price } = product;
     return (
         <div className="single-product grid grid-cols-6 bg-white rounded-lg shadow-md border border-slate-100">
             <div className="product-content col-span-4 p-4">
